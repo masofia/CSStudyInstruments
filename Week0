@@ -1,6 +1,0 @@
-Week 0 Progress Report
-
-- Setup crash simulator environment in VM. 
-- Was stuck for long time because Docker installation was not working. 
-- Got manual installation working
-- Ran simulator with 'ls' and 'cp'.
