@@ -12,4 +12,4 @@ Week 1 Progress Report
 - When running these again after class, was able to get output. 
   I must have been following the instructions incorrectly before, not aligning events properly maybe or choosing lines that are part of the loading of the lib. 
   
-- Next, saw problems with the 'openat' system call since this was not supported. 
+- Tried modifying file types for 'ls', 'cp', 'tail'. Saw problems with the 'openat' system call since this was not supported.
