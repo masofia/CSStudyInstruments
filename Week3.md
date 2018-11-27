@@ -10,10 +10,11 @@ Week 3 Progress Report
     - Encountered syscall with no handler `fchmodat`. Created issue: [Issue 68](https://github.com/pkmoore/rrapper/issues/68)
 
 - Tested NodeJS libraries.
-    `express`: could not test app, could not reach the service 
-    `fs-extra`: `readFile`, `readFileSync`, `copySync`, `readJsonSync`, `writeJsonSync`
-    Errors encountered: 
-      - unhandled system calls `sendfile64`, `clock_gettime` 
-      - 2 types of `ReplayDeltaError`
-      - `ValueError: need more than 0 values to unpack`
-      - `TypeError: list indices must be integers, not str`
+  - `express`: could not test app, could not reach the service
+  - `fs-extra`: `readFile`, `readFileSync`, `copySync`, `readJsonSync`, `writeJsonSync`. 
+  
+  Errors encountered: 
+    - unhandled system calls `sendfile64`, `clock_gettime` 
+    - 2 types of `ReplayDeltaError`
+    - `ValueError: need more than 0 values to unpack`
+    - `TypeError: list indices must be integers, not str`
