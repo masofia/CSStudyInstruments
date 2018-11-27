@@ -11,7 +11,7 @@ Week 3 Progress Report
 
 - Tested NodeJS libraries.
   - `express`: could not test app, could not reach the service
-  - `fs-extra`: `readFile`, `readFileSync`, `copySync`, `readJsonSync`, `writeJsonSync`. 
+  - `fs-extra`: `readFile`, `readFileSync`, `copySync`, `readJsonSync`, `writeJsonSync`, `moveSync`
   
   Errors encountered: 
     - unhandled system calls `sendfile64`, `clock_gettime` 
