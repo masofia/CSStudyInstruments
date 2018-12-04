@@ -6,3 +6,5 @@ Week 4 Progress Report
   Tracked in issue: [Issue 67](https://github.com/pkmoore/rrapper/issues/67)
   
 - Tested multiple functions NodeJS library `loadash`  
+
+- Ran into error `"bad interpreter: too many levels of symbolic links"`. Reinstalling python did not fix this. Created new VM and installed everything from scratch. 
