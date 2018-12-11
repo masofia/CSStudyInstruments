@@ -26,4 +26,4 @@ const fs = require('fs-extra');
 fs.writeJsonSync('/home/sse/testfile.json', {name: 'test'});
 ```
 
-When the file type of `/home/sse/testfile.json` is modified to a block device (S_IFBLK) on replay, the app does not crash. When testing with a block device file, the write fails. So it was determined that it is not a bug.
+When the file type of `/home/sse/testfile.json` is modified to a block device filetype (S_IFBLK) on replay, the app does not crash. When testing with an actual block device file, the write fails. So it was determined that it is not a bug.
