@@ -5,4 +5,4 @@ Week 5 Progress Report
   - Created [issue 84](https://github.com/pkmoore/rrapper/issues/84)
   - `fs-extra.moveSync` -> possible bug identified when no error with file type mutator -> determined it was expected behavior
 
-- Tested `lodash.sortBy`
+- Continued testing NodeJS libs lodash, fs, csv-parser: `lodash.sortBy`, `fs.createReadStream`, `csv-parser`
