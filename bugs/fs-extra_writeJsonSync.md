@@ -13,6 +13,7 @@ The function `writeJsonSync` of the NodeJS library `fs-extra` does not error out
 ### Week 3
 
 **Current Stage: Testing**
+
 Was seeing errors with the system call `clock_gettime`, so could not properly run trace. Created issue: https://github.com/pkmoore/rrapper/issues/67
 
 ### Week 4
