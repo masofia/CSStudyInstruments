@@ -9,3 +9,5 @@ Week 5 Progress Report
 - Continued testing NodeJS libs lodash, fs, csv-parser: `lodash.sortBy`, `fs.createReadStream`, `csv-parser`
 
 - Created [issue 89](https://github.com/pkmoore/rrapper/issues/89)
+
+- Looking at other NodeJS libs - `fs.copy` handles character and block devices properly: https://github.com/jprichardson/node-fs-extra/issues/193 
